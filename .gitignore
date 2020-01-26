@@ -1,3 +1,9 @@
+# Custom ignores
+_data/*
+.idea/
+config.yml
+
+# Github provided content below
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
