@@ -52,8 +52,6 @@ with open("config.yml", "r") as configFile:
     try:
         waitAndClick(driver, "//*[@id='mvo_ovr_quick_updates_pos1']/div/div/div/div[3]/span/a/button")
         waitAndClick(driver, "//*[@id='billStatusSection']/div/div/div[6]/div[2]/button")
-    except TimeoutError:
-        print("Timed out trying to get bill")
     except Exception as e:
         print(traceback.format_exc())
 
